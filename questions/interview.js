@@ -45,3 +45,23 @@ function a(){
 console.log(name)
 a();
 console.log(name)
+
+
+//*************************************************** */
+
+function StringChallenge(str){
+    let ans ="";
+    let flag = false;
+    for(let i=0; i<str.length; i++){
+      let ch = str.charAt(i)+""; 
+      if((ch>='A' && ch<='Z') || (ch>='a' && ch<='z')){
+        ans += (i==0) ? ch.toLowerCase() : (flag ? ch.toUpperCase() : ch.toLowerCase());
+        flag = false;
+      }else{
+        flag = true;
+      }
+    }
+  return ans;
+}
+
+// console.log(StringChallenge("cats AND*Dogs-are Awesome"))

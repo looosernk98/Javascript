@@ -7,7 +7,7 @@
 
 let arr1 = [1,2,3,4,5];
 
-let narr1 = arr1.map((element)=>{
+let narr1 = arr1.map((element,index)=>{
     return element*2;
 })
 

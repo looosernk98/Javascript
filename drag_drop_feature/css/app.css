@@ -1,0 +1,36 @@
+.container {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .drop-targets {
+    height: 250px;
+    width: 90%;
+    /* border: 1px solid green; */
+    display: flex;
+  }
+  
+  .box {
+    height: 100%;
+    width: 33.33%;
+    border: 1px solid #3f3c3c;
+  }
+  
+  .item {
+    height: 70%;
+    width: 70%;
+    background: yellow;
+    margin: 10%; /* padding: 10px; */
+  }
+  
+  #item {
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .drag-over {
+    border: dashed 3px red;
+  }
+  
