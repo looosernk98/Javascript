@@ -48,4 +48,10 @@ let sum = numbers.reduce(function(a,b){   // Ist iteration -->  a-> initial valu
             return a+b;
           }, 5 );                  // here 5 is initial value
 
-console.log(sum);         
+console.log(sum);
+
+let max = numbers.reduce((a,b)=>{
+    return Math.max(a,b)
+})
+
+console.log("max => ",max)

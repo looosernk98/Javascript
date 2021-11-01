@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="rating-heading">
+ rating div
+</div>
+    <script>
+          let ratingDiv = window.document.querySelector('.rating-heading');
+// let child = <button type='button'>hi</button>
+        //   ratingDiv.appendChild(child)
+            for(let score=1; score<=10; score++){
+                if(30*end/100 <=end){
+                ratingDiv.appendChild(<button className="detractor" onClick={(e) => handleClick(e,score)}>{score}</button>)
+                }else if(70*end/100 <=end){
+                ratingDiv.appendChild(<button className="passive" onClick={() => handleClick(score)}>{score}</button>)
+                }else{
+                ratingDiv.appendChild(<button className="promoter" onClick={() => handleClick(score)}>{score}</button>)
+                }
+            }
+    </script>
+    
+</body>
+</html>
