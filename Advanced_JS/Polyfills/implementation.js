@@ -1,8 +1,8 @@
-if (typeof Array.prototype.filter !== "function") {
-  Array.prototype.filter = function () {
-    // implementation goes here
-  };
-}
+// if (typeof Array.prototype.filter !== "function") {
+//   Array.prototype.filter = function () {
+//     // implementation goes here
+//   };
+// }
 
 Array.prototype.filter = function (fn, thisp) {
   if (this === null) throw new TypeError();
@@ -176,4 +176,4 @@ Array.prototype.customForEach = function (callback) {
 
 // list.customForEach((ele,i,arr)=>console.log(ele,i,arr))
 
-//******************************************************  *********************************************************************************/
+//****************************************************** bind method  *********************************************************************************/

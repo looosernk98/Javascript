@@ -1,0 +1,93 @@
+.input-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+  }
+  
+  .input-box {
+    width: 70%;
+    background: #ecfcff 0% 0% no-repeat padding-box;
+    box-shadow: 15px 15px 25px #0e340333;
+    opacity: 1;
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+  
+  .input {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+  .text {
+    color: #535353;
+    opacity: 1;
+    font-family: "AvenirNext-Bold", sans-serif;
+    text-align: left;
+  }
+  .input > input {
+    width: 30rem;
+    background: #cdf4fc 0% 0% no-repeat padding-box;
+    border-radius: 26px;
+    opacity: 1;
+    border: none;
+    padding: 10px 20px 10px 20px;
+  }
+  
+  .pre-text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+  .pre-text > div {
+    background: #dcdcff;
+    border-radius: 26px;
+    opacity: 1;
+    padding: 8px 14px 8px 14px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  .footer-btn {
+    width: 70%;
+    text-align: right;
+    margin-top: 4rem;
+  }
+  
+  .selected{
+      background: #C3FFB5  !important
+  }
+  
+  @media screen and (max-width: 550px) {
+    .footer-btn,
+    .input > input,
+    .input-box {
+      width: 100%;
+    }
+  
+    .text{
+      width: 100%;
+      align-self: flex-start;
+    }
+  
+    .input{
+      flex-direction: column;
+      row-gap: 10px;
+    }
+  
+    .pre-text{
+        justify-content: center;
+    }
+  }
+  

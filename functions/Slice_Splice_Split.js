@@ -14,7 +14,7 @@
     var res3 = arr.slice(3,-1);  // removes element from end of original array
     // console.log(res1);
     // console.log(res2)
-    console.log(res3,"*****************")
+    console.log(res1,"****************jj*") 
 
 
 // **************************************** splice() *************************************************//

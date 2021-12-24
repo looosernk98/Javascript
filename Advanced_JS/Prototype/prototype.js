@@ -1,4 +1,5 @@
 /* 
+    ==> only functions provide prototype property (prototype is like a free space and emptyy object)
 
   1.All JavaScript objects inherit properties and methods from a prototype.
   2.you can not add a new property to an existing object constructor

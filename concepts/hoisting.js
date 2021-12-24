@@ -8,3 +8,17 @@
 // https://www.geeksforgeeks.org/javascript-hoisting/
 // https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
 // https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
+
+
+
+function A(){
+    var a = 8;
+
+    B()
+}
+
+A()
+function B(){
+    console.log(a)
+}
+
